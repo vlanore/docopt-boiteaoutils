@@ -15,6 +15,7 @@ letter = args.letter[0]
 color = args.color
 ignore = args.ignore
 
+# == SCRIPT ========================================================================================================================
 myfile = open(filename, 'r')
 lines = myfile.readlines()
 if ignore:
