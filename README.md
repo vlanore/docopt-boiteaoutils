@@ -44,3 +44,10 @@ Pros:
  
 Cons:
  - parameter checking is more basic than argparse.
+
+
+## Bonus: gooey
+
+Gooey is a tool to automatically create graphical dialog boxes from argparse parsers.
+
+Documentation: [gooey](https://github.com/chriskiehl/Gooey)
