@@ -16,7 +16,31 @@ This approach is bad:
  - difficult to write;
  - etc...
  
- ## argparse
- Example code: [argument parsing with argparse](src/myapp-argparse.py)
+## argparse
+Example code: [argument parsing with argparse](src/myapp-argparse.py)
+
+Documentation: [argparse](https://docs.python.org/3/library/argparse.html)
+
+Principle: specify your desired command line parameters using an object-oriented interface.
+
+It's better:
+ - usage message automatically generated (thus guaranteed to be correct);
+ - support for combined options (e.g., -ci);
+ - elaborate syntax checking (number of parameters, types, order...).
+  
+But it's not easy to write, especially for small scripts.
  
+## docopt
+Example code: [argument parsing with docopt]
+
+Documentation: [docopt](https://github.com/docopt/docopt)
+
+Principle: write your usage message directly, docopt does the rest.
+
+Pros:
+ - easy to write, especially for small scripts;
+ - documentation directly in code;
+ - "commands" are easy to use
  
+Cons:
+ - parameter checking is more basic than argparse.
