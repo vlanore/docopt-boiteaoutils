@@ -1,4 +1,4 @@
-## Boite à outils informatique #2
+## Boîte à outils informatique #2
 # Command line arguments in python
 
 Having reliable and well-documented command line interfaces is important.
@@ -31,7 +31,7 @@ It's better:
 But it's not easy to write, especially for small scripts.
  
 ## docopt
-Example code: [argument parsing with docopt]
+Example code: [argument parsing with docopt](src/myapp-docopt.py)
 
 Documentation: [docopt](https://github.com/docopt/docopt)
 
